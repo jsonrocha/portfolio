@@ -1,0 +1,213 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  font: 16px / 1 roboto, arial, sans-serif;
+}
+
+.squeeze {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.keepreading {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #0081d5;
+  height: 40px;
+  font-size: 18px;
+  width: 160px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 36px / 1 roboto, arial, sans-serif;
+  font-weight: bold;
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+footer  {
+  margin-top: 115px;
+  margin-bottom: 50px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.bluebg {
+  background-color: #031019;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whitebg {
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  border-radius: 3px;
+  height: 166px;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+#space {
+  background-image: url("/images/space.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.react {
+  background-image: url("/images/react.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.code {
+  background-image: url("/images/code.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.p-strong {
+  font: 24px / 1 roboto, arial, sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.p {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.p2 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.p3 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+
+.mt10 {
+  margin-top: 20px;
+}
+
+.mt80 {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.bubble {
+  position: relative;
+  width: 370px;
+  height: 95px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  opacity: 0.7;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 35px 15px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -35px;
+  top: 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec2 {
+  background-image: url("/images/space2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.four {
+  height: 280px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.jp {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 100px 0px 120px 120px;
+}
