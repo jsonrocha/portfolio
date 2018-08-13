@@ -80,7 +80,7 @@ footer  {
 }
 
 #space {
-  background-image: url("/images/space.png");
+  background-image: url("/images/sunset.gif");
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -90,7 +90,7 @@ footer  {
 }
 
 .react {
-  background-image: url("/images/react.png");
+  background-image: url("/images/code.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ footer  {
 }
 
 .code {
-  background-image: url("/images/code.png");
+  background-image: url("/images/coding.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
